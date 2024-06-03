@@ -34,9 +34,8 @@ export default function Navigation() {
                 src='/images/go4ai.png'
                 alt={t('title')}
                 title={t('title')}
-                width={64}
+                width={126}
                 height={64}
-                className='size-[58px] lg:size-16'
               />
             </Link>
           </div>
