@@ -25,15 +25,6 @@ export type WebNavigationDetailData = {
 
 export const dataList: WebNavigationListRow[] = [
   {
-    id: '1792434701288771585',
-    name: 'woy-ai',
-    title: 'Woy AI Tools Directory',
-    content: 'Discover the top AI tools of 2024 with the Woy.ai AI Directory!',
-    url: 'https://woy.ai',
-    imageUrl: 'https://img.artiversehub.ai/2024/05/20/c5a29d0bd95f4788a592d363b3ee4117.png',
-    thumbnailUrl: 'https://img.artiversehub.ai/2024/05/20/7d246f5ac3d240a4bc03e6c01d68f845.png',
-  },
-  {
     id: '1792107164427784194',
     name: 'chatgpt-mac',
     title: 'ChatGPT for MacOS: Your AI Assistant for Enhanced Productivity',

@@ -4,10 +4,6 @@ export const NAV_LINKS = [
     href: '/explore',
   },
   {
-    code: 'submit',
-    href: '/submit',
-  },
-  {
     code: 'startup',
     href: '/startup',
   },
@@ -17,8 +13,7 @@ export const PAGE_SIZE = 20;
 
 export const FORM_PLACEHOLDER = 'https://tap4.ai/';
 
-export const WEBSITE_EXAMPLE =
-  '<a href="https://tap4.ai/" title="GO4AI Tools Directory">Tap4 AI Tools Diresctory</a>';
+export const WEBSITE_EXAMPLE = '<a href="https://tap4.ai/" title="GO4AI Tools Directory">Tap4 AI Tools Diresctory</a>';
 
 export const STARTUP_LIST = [
   {

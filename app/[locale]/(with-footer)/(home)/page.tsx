@@ -5,7 +5,6 @@ import { getWebNavigationList } from '@/network/webNavigation';
 import { CircleChevronRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 
-import Faq from '@/components/Faq';
 import WebNavCardList from '@/components/webNav/WebNavCardList';
 
 const ScrollToTop = dynamic(() => import('@/components/page/ScrollToTop'), { ssr: false });
@@ -51,7 +50,6 @@ export default async function Page() {
             <CircleChevronRight className='mt-[0.5] h-[20px] w-[20px]' />
           </Link>
         </div>
-        <Faq />
         <ScrollToTop />
       </div>
     </div>

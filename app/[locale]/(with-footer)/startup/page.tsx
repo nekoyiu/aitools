@@ -2,7 +2,6 @@ import React from 'react';
 import { useTranslations } from 'next-intl';
 
 import { formatTime } from '@/lib/utils/timeUtils';
-import Faq from '@/components/Faq';
 
 import DesktopTable from './DesktopTable';
 import MobileTable from './MobileTable';
@@ -23,7 +22,6 @@ export default function Page() {
       </div>
       <DesktopTable />
       <MobileTable />
-      <Faq />
     </div>
   );
 }

@@ -2,8 +2,6 @@ import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
-import Faq from '@/components/Faq';
-
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({
     locale,
@@ -27,7 +25,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <h2 className='text-xs lg:text-sm'>{t('subTitle')}</h2>
       </div>
       {children}
-      <Faq />
     </div>
   );
 }
